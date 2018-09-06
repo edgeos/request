@@ -1336,7 +1336,7 @@ Request.prototype.enableUnixSocket = function () {
   this.socketPath = host
   this.uri.pathname = path
   this.uri.path = path
-  this.uri.host = host
+//  this.uri.host = host
   this.uri.hostname = host
   this.uri.isUnix = true
 }
